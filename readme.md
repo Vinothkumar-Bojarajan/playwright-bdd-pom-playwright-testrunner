@@ -18,7 +18,7 @@ This project showcases how to use the Page Object Model (POM) pattern in conjunc
 To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-repo/playwright-bdd-pom-playwright-testrunner.git
+git clone https://github.com/Vinothkumar-Bojarajan/playwright-bdd-pom-playwright-testrunner.git
 cd playwright-bdd-pom-playwright-testrunner
 npm install
 ```

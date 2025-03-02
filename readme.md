@@ -91,23 +91,23 @@ Then('I should be redirected to the home page', async () => {
 To run the tests, use the following command:
 
 ```bash
-node ./runTests.js
+node .\runTests.js
 ```
 
-In the ./runTests.js file, below command is responsible for execution. 
+In the "runTests.js" file, below command is responsible for execution. 
 playwrightCommand = 'npx bddgen && npx playwright test --workers 1 --headed';
 
 /**
  * This command performs the following steps:
  * 1. Generates test files in the .feature-gen folder using the `npx bddgen` command.
  * 2. Executes the generated test files using the `npx playwright test` command.
- * 
+ 
  * The `npx bddgen` command generates test files based on BDD (Behavior-Driven Development) specifications.
  * These generated test files are stored in the .features-gen folder.
- * 
+ 
  * The `npx playwright test` command then picks up these generated test files for execution.
  * The `--workers 1` option ensures that the tests are run with a single worker, and the `--headed` option runs the tests in a headed browser mode.
- */
+ **/
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
